@@ -43,7 +43,7 @@ body {
 .header-text {
     font-family: 'Source Serif Pro', serif;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 2.8em;
     text-decoration: none;
     cursor: pointer;
     color: #60666a;
@@ -104,11 +104,12 @@ p {
     padding-left: 35%;
     margin-top: -1.2em;
 }
+
 .emph {
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
     color: #9c95a2dd;
-    font-size: 1.4125em;
+    font-size: 1.8125em;
     margin-top: -0.2em;
     padding-left: 25%;
     z-index: 5;
@@ -120,12 +121,71 @@ p {
     text-align: left;
 }
 
+.goals {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    color: #9c95a2dd;
+    font-size: 2.8125em;
+    margin-top: 1em;
+    z-index: 5;
+    letter-spacing: -0.02em;
+    background: -webkit-linear-gradient(0deg, #3C1D71cc, #D66D77cc, #FEAD7Bcc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.disclaimer {
+    font-size: 0.7em;
+    margin-top: 0;
+}
+
 .para5 {
     width: 45%;
     padding-left: 10%;
     margin-top: -0.5em;
 }
 
+.para6 {
+    width: 45%;
+    padding-left: 40%;
+    margin-top: -0.5em;
+}
+
+.para7 {
+    width: 45%;
+    padding-left: 10%;
+    margin-top: -0.5em;
+    margin-bottom: 3em;
+}
+
+.rules {
+    width: 100%;
+}
+
+.rule {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+}
+
+.bullet {
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 0.4em;
+    background: -webkit-linear-gradient(45deg, #3C1D71cc, #D66D77cc, #FEAD7Bcc);
+    border-radius: 1em;
+}
+
+.space {
+    height: 3em;
+}
 .footer {
     font-size: 0.8em;
 }
